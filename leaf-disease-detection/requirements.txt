@@ -1,1 +1,16 @@
-# Placeholder for requirements.txt
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+
+# Groq API
+groq==0.4.2
+
+# Streamlit
+streamlit==1.31.0
+requests==2.31.0
+Pillow==10.2.0
+
+# Utilities
+python-dotenv==1.0.0
